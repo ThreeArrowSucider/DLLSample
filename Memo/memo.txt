@@ -89,3 +89,9 @@ $(ProjectName) -> $(ProjectName)32
 -プロパティ-構成プロパティ-全般-ターゲット名
 $(ProjectName) -> $(ProjectName)64
 ...ビットごとにdllを分けたいのでビット数を名前につける
+
+
+
+参考にしたサイト...
+TackKaiware様 : C#からC/C++の関数をコールする方法　まとめ①
+https://qiita.com/TackKaiware/items/27ebcf10bb2624db197a

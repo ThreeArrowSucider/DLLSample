@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\KOUDO\source\repos\DLLSample\2_CsMain\bin\Debug\netcoreapp3.1\1_Cppcli32.runtimeconfig.json</FullPath>
+      <FullPath>C:\Users\OWLFACE\Source\Repos\ThreeArrowSucider\DLLSample\2_CsMain\bin\Debug\netcoreapp3.1\1_Cppcli32.runtimeconfig.json</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\KOUDO\source\repos\DLLSample\2_CsMain\bin\Debug\netcoreapp3.1\1_Cppcli32.dll</FullPath>
+      <FullPath>C:\Users\OWLFACE\Source\Repos\ThreeArrowSucider\DLLSample\2_CsMain\bin\Debug\netcoreapp3.1\1_Cppcli32.dll</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
