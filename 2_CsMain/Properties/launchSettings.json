@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "2_CsMain": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}
