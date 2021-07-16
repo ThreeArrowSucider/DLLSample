@@ -22,6 +22,7 @@ namespace ConsoleApp1
 
 						Console.WriteLine( wrap( 4812 /* ｼｬｲﾆ‐☆彡 */) );
 
+						Console.WriteLine( "何かキーを入力してください" );
 						Console.ReadKey();
 				}
 		}
