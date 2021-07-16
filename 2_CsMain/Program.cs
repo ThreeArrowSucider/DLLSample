@@ -21,6 +21,8 @@ namespace ConsoleApp1
 								wrap = wrap_32;
 
 						Console.WriteLine( wrap( 4812 /* ｼｬｲﾆ‐☆彡 */) );
+
+						Console.ReadKey();
 				}
 		}
 }

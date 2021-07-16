@@ -52,15 +52,19 @@ C#ƒvƒƒWƒFƒNƒg‚Ì‚ÝƒfƒoƒbƒOŽÀs‚·‚é‚æ‚¤‚É•ÏXiƒuƒŒƒCƒNƒ|ƒCƒ“ƒg‚Æ‚©‚ÍC++‚Æ‚©‚Ì•û‚
 CppProject & CppCli
 -ƒvƒƒpƒeƒB-\¬ƒvƒƒpƒeƒB-‘S”Ê-o—ÍƒfƒBƒŒƒNƒgƒŠ
 \¬ : ‚·‚×‚Ä‚Ì\¬@ƒvƒ‰ƒbƒgƒtƒH[ƒ€ : ‚·‚×‚Ä‚Ìƒvƒ‰ƒbƒgƒtƒH[ƒ€
-ŒÂ•ÊƒIƒvƒVƒ‡ƒ“ -> $(SolutionDir)2_CsMain\bin\$(Configuration)\netcoreapp3.1\
+ŒÂ•ÊƒIƒvƒVƒ‡ƒ“ -> $(SolutionDir)2_CsMain\bin\$(Configuration)\$(PlatformShortName)\netcoreapp3.1\
 
 CsMain
 -ƒvƒƒpƒeƒB-ƒrƒ‹ƒh-o—ÍƒpƒX
-\¬ : Release@ƒvƒ‰ƒbƒgƒtƒH[ƒ€ : ‚·‚×‚Ä‚Ìƒvƒ‰ƒbƒgƒtƒH[ƒ€
-(‹ó”’) -> bin\Release\
-\¬ : Debug@@ƒvƒ‰ƒbƒgƒtƒH[ƒ€ : ‚·‚×‚Ä‚Ìƒvƒ‰ƒbƒgƒtƒH[ƒ€
-(‹ó”’) -> bin\Debug\
-...o—Íæ‚ð‘S•”1‚Â‚ÌƒtƒHƒ‹ƒ_‚É‚Ü‚Æ‚ß‚¿‚á‚¤B
+\¬ : Release@ƒvƒ‰ƒbƒgƒtƒH[ƒ€ : x86
+(‹ó”’) -> bin\Release\x86\
+\¬ : Release@ƒvƒ‰ƒbƒgƒtƒH[ƒ€ : x64
+(‹ó”’) -> bin\Release\x64\
+\¬ : Debug@@ƒvƒ‰ƒbƒgƒtƒH[ƒ€ : x86
+(‹ó”’) -> bin\Debug\x86\
+\¬ : Debug@@ƒvƒ‰ƒbƒgƒtƒH[ƒ€ : x64
+(‹ó”’) -> bin\Debug\x64\
+...o—Íæ‚ð\¬‚Æƒvƒ‰ƒbƒgƒtƒH[ƒ€‚²‚Æ‚É‘S•”1‚Â‚ÌƒtƒHƒ‹ƒ_‚É‚Ü‚Æ‚ß‚¿‚á‚¤B
 C#‚Ì•û‚Å‚·‚×‚Ä‚Ì\¬•ÏX‚©‚¯‚é‚ÆƒZ[ƒu‚µ‚½‚ç•¶Žš‚ªÁ‚¦‚¿‚á‚¤‚¯‚Ç‚¿‚á‚ñ‚Æ“K—p‚Í‚³‚ê‚Ä‚é‚Ì‚Å‘åä•v
 
 CppProject
