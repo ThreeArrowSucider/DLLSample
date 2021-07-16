@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;// DllImport用
 namespace ConsoleApp1
 {
 		delegate int Wrap( int num );
-		delegate void Strout( string str, int chnum );
+		delegate void Strout( string str );
 		class Program
 		{
 				[DllImport( @"1_Cppcli32.dll", EntryPoint = "wrap" )]
@@ -15,10 +15,10 @@ namespace ConsoleApp1
 
 
 				[DllImport( @"1_Cppcli32.dll", EntryPoint = "strout" )]
-				static extern void strout_32( string str, int chnum );
+				static extern void strout_32( string str );
 
 				[DllImport( @"1_Cppcli64.dll", EntryPoint = "strout" )]
-				static extern void strout_64( string str, int chnum );
+				static extern void strout_64( string str );
 
 
 				static void Main( string[] args )
@@ -38,7 +38,7 @@ namespace ConsoleApp1
 						else
 								strout = strout_32;
 
-						strout( "ｼｬｲﾆｰ", 123 );
+						strout( "ｼｬｲﾆｰ" );
 
 
 						Console.WriteLine( "何かキーを入力してください" );
