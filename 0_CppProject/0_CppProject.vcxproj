@@ -72,25 +72,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>$(SolutionDir)2_CsMain\bin\$(Configuration)\netcoreapp3.1\</OutDir>
+    <OutDir>$(SolutionDir)2_CsMain\bin\$(Configuration)\$(PlatformShortName)\netcoreapp3.1\</OutDir>
     <TargetName>$(ProjectName)32</TargetName>
     <IntDir>$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>$(SolutionDir)2_CsMain\bin\$(Configuration)\netcoreapp3.1\</OutDir>
+    <OutDir>$(SolutionDir)2_CsMain\bin\$(Configuration)\$(PlatformShortName)\netcoreapp3.1\</OutDir>
     <TargetName>$(ProjectName)32</TargetName>
     <IntDir>$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>$(SolutionDir)2_CsMain\bin\$(Configuration)\netcoreapp3.1\</OutDir>
+    <OutDir>$(SolutionDir)2_CsMain\bin\$(Configuration)\$(PlatformShortName)\netcoreapp3.1\</OutDir>
     <TargetName>$(ProjectName)64</TargetName>
     <IntDir>$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>$(SolutionDir)2_CsMain\bin\$(Configuration)\netcoreapp3.1\</OutDir>
+    <OutDir>$(SolutionDir)2_CsMain\bin\$(Configuration)\$(PlatformShortName)\netcoreapp3.1\</OutDir>
     <TargetName>$(ProjectName)64</TargetName>
     <IntDir>$(Configuration)\</IntDir>
   </PropertyGroup>
