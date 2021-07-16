@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\OWLFACE\Source\Repos\ThreeArrowSucider\DLLSample\2_CsMain\bin\Debug\netcoreapp3.1\0_CppProject64.dll</FullPath>
+      <FullPath>C:\Users\KOUDO\source\repos\DLLSample\2_CsMain\bin\Debug\x64\netcoreapp3.1\0_CppProject64.dll</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
