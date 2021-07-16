@@ -11,9 +11,9 @@ using wstr = std::wstring;
 namespace fs = std::filesystem;
 
 
-#ifdef _M_IX86 // 32bit”»’è
-#endif
-DllExport int __stdcall wrap_32(int num)
+#ifdef _M_IX86 // 32bit‚©64bit‚©”»’è
+
+DllExport int __stdcall wrap(int num)
 {
     wstr dir = wstr(fs::current_path()) + L"\\0_CppProject32.dll";
 
@@ -27,8 +27,9 @@ DllExport int __stdcall wrap_32(int num)
     return func(num) + 32;
 }
 
+#else
  
-DllExport int __stdcall wrap_64(int num) 
+DllExport int __stdcall wrap(int num) 
 {
     wstr dir = wstr(fs::current_path()) + L"\\0_CppProject64.dll";
 
@@ -40,5 +41,7 @@ DllExport int __stdcall wrap_64(int num)
     FUNC1 func = (FUNC1)GetProcAddress(hModule, "Test");
 
     return func(num) + 64;
+    return 5;
 }
 
+#endif

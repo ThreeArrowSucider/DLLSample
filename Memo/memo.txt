@@ -29,13 +29,17 @@ c++/cliで作成したdllを呼び出すことができるのでGUI作成とかが捗る。
 新しいプラットフォーム -x64
 設定のコピー元 -AnyCPU
 
-
 -ソリューション-構成マネージャ
 CsMain	: Debug   x86 - AnyCPU -> x86
 				: Debug   x64 - AnyCPU -> x64
 				: Release x86 - AnyCPU -> x86
 				: Release x64 - AnyCPU -> x64
-...C#のビルドは規定ではAnyCPUになっている（動作している環境に合わせて32bit64bit切り替える）が
+				
+-ソリューション-構成マネージャ
+ReleaseとDebug両方、x86とx64すべての構成で
+使用するプロジェクトのビルドにチェックを入れる
+
+...C#のビルドは規定ではAnyCPUになっている（動作しているOSに合わせて32bit64bit切り替える）が
 dllのビット数が違うと動かないのでビルド設定ごとに固定している。
 
 -CsMain-プロパティ-ビルド
@@ -115,3 +119,4 @@ $(ProjectName) -> $(ProjectName)64
 参考にしたサイト...
 TackKaiware様 : C#からC/C++の関数をコールする方法　まとめ①
 https://qiita.com/TackKaiware/items/27ebcf10bb2624db197a
+他

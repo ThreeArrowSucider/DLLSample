@@ -6,10 +6,10 @@ namespace ConsoleApp1
 		delegate int Wrap( int num );
 		class Program
 		{
-				[DllImport( @"1_Cppcli32.dll")]
+				[DllImport( @"1_Cppcli32.dll", EntryPoint = "wrap" )]
 				static extern int wrap_32( int num );
 
-				[DllImport( @"1_Cppcli64.dll" )]
+				[DllImport( @"1_Cppcli64.dll", EntryPoint = "wrap" )]
 				static extern int wrap_64( int num );
 
 				static void Main( string[] args )
@@ -19,8 +19,8 @@ namespace ConsoleApp1
 								wrap = wrap_64;
 						else
 								wrap = wrap_32;
-						
-						Console.WriteLine( wrap_64( 100 ) );
+
+						Console.WriteLine( wrap( 4812 /* ｼｬｲﾆ‐☆彡 */) );
 				}
 		}
 }
